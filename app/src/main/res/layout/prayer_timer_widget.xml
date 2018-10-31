@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="horizontal"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/time_sobh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:drawableTop="@drawable/ic_home_black_24dp"
+        android:text="@string/time_sobh" />
+
+    <TextView style="@style/WidgetButtonHorizontalSpace" />
+
+    <TextView
+        android:id="@+id/time_dohr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:drawableTop="@drawable/ic_home_black_24dp"
+        android:text="@string/time_dohr" />
+
+    <TextView style="@style/WidgetButtonHorizontalSpace" />
+
+    <TextView
+        android:id="@+id/time_asr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:drawableTop="@drawable/ic_home_black_24dp"
+        android:text="@string/time_asr" />
+
+    <TextView style="@style/WidgetButtonHorizontalSpace" />
+
+    <TextView
+        android:id="@+id/time_maghreb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="4"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:drawableTop="@drawable/ic_home_black_24dp"
+        android:text="@string/time_maghreb" />
+
+    <TextView style="@style/WidgetButtonHorizontalSpace" />
+
+    <TextView
+        android:id="@+id/time_icha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="5"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:drawableTop="@drawable/ic_home_black_24dp"
+        android:text="@string/time_icha" />
+
+</LinearLayout>
